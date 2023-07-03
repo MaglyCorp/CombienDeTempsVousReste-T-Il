@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+p{
+    margin: 10px 0;
+}
+
+.readArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.topArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.readArticle .topArticle h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.readArticle .topArticle .author {
+  margin: 20px 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.articleImg{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.articleRead{
+    font-size: 1.2rem;
+    line-height: 25px;
+    word-spacing:2px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+
+.articleRead img {
+    width: 50%;
+    margin: 10px auto;
+}
