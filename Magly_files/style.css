@@ -55,3 +55,35 @@ p{
     width: 50%;
     margin: 10px auto;
 }
+
+.graphiqueImg{
+    width: 25% !important;
+    margin: 20px 50% 20px 35% !important;
+}
+
+.newTable {
+    width: 80% !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .articleRead{
+        font-size: 1rem;
+        line-height: 20px;
+        word-spacing:3px;
+    }
+
+    .articleRead img {
+        width: 100%;
+    }
+
+    .graphiqueImg{
+        width: 60% !important;
+        margin: 20px 50% 20px 20% !important;
+
+    }
+
+    .newTable {
+        width: 100% !important;
+    }
+}
